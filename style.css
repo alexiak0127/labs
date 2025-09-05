@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  padding: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: rgb(245, 124, 144);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 30px 0 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+li::before {
+  content: '•';
+  color: black;
+  position: absolute;
+  left: 0;
+}
